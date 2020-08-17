@@ -16,4 +16,5 @@ for i in range(r):
 		#print("{:>10} {:>10}". format (i,j))
 		print("{:<10}".format(matrix[i][j])," ",end = " ")
 	print()
+
 	

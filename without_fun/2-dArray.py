@@ -6,3 +6,4 @@ print(arr)
 arr2 = np.array([[11,12,13,14,15],[16,17,18,19,20]])
 print("\n\n*** 2-D Array ***\n")
 print(arr2)
+
