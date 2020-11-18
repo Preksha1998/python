@@ -1,0 +1,12 @@
+import cv2
+img = cv2.imread("resources/butterfly.jpg")
+cv2.imshow("original image",img)
+img_hsv = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
+cv2.imshow("HSV image",img_hsv)
+cv2.waitKey(0)
+cv2.imshow("1.Hue Channel:",img_hsv[: , : , 0])
+cv2.waitKey(0)
+cv2.imshow("2. Saturation Channel:",img_hsv[: , : , 1])
+cv2.waitKey(0)
+cv2.imshow("3. Value Channel:",img_hsv[: , : , 2])
+cv2.waitKey(0)
