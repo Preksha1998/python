@@ -3,7 +3,7 @@ import cv2
 
 
 if __name__ == '__main__':
-    img = cv2.imread("resources/prexa.jpg")
+    img = cv2.imread("resources/butterfly.jpg")
     height, width, trash = img.shape
 
     grayImage = np.ones([height * width], np.uint8)

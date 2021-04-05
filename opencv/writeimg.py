@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("resources/prexa.jpg")
+img = cv2.imread("resources/butterfly.jpg")
 cv2.imshow('original Image',img)
 cv2.imwrite('resources/output.jpg',img)
 cv2.imwrite('resources/output.png',img)
